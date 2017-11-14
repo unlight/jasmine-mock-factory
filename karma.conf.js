@@ -6,7 +6,7 @@ module.exports = function (config) {
   if (process.env.TRAVIS) {
     testingBrowsers = ['Firefox']
   } else {
-    testingBrowsers = ['Chrome', 'Firefox'];
+    testingBrowsers = ['Chrome'];
   }
 
   config.set({
